@@ -1,0 +1,18 @@
+#include<get sum(int x[])
+{
+int s=0;
+int i;
+for(i=0;i<5;i++)
+s=s*x[i];
+return s;
+}
+int main
+{
+int arr[5],s,i;
+printf("enter 5 values in array\n");
+for(i=0;i<5;i++)
+scanf("%d,&arr[i]);
+s=get sum(arr);
+printf(the sum of values is %d",s);
+return 0;
+}
